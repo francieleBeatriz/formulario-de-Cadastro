@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #252525;
+}
+#titulo{
+    color: #252525;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+#subtitulo{
+    color: #252525;
+    font-size: 1.2rem;
+}
+.titulo-categoria{
+    color: #252525;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+fieldset{
+    border: 0;
+}
+.etapa-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #252525;
+    font-weight: 600;
+}
+.email > label > input{
+    display: flex;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.email{
+    padding-top: 10px;
+}
+.names > .nome > label > input{ 
+    display: flex;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.names > .nome {
+    display: inline-block;
+}
+#sobrenome{
+    padding-left: 10px;
+}
+.tecnologias{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tecnologias > div > label > input{
+    padding-left: 50px;
+}
+.tecnologias input[type="checkbox"]{
+    margin: 2px;
+    accent-color: #252525;
+}
+.etapa-2 > label{
+    color: #252525;
+    font-weight:500;
+}
+.foco-desenvolvimento > label{
+    display: inline;
+}
+.foco-desenvolvimento input[type="radio"]{
+    margin: 2px;
+}
+.biografia > label > textarea{ 
+    display: flex;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+button{
+    width: 70px;
+    height: 30px;
+
+    background-color: #252525;
+    color: #ffffff;
+
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #252525;
+}
+.borda{
+    border-color: #252525;
+}
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: #252525;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+}
+input[type="radio"]:checked{
+    background-color: #0283da;
+}
+input[type="checked"]{
+    -webkit-appearance: none;
+    background-color: #302a3d;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+}
+input[type="checked"]:checked{
+    background-color: #ffffff;
+}

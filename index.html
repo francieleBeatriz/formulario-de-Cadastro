@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 id="titulo">Cadastro de Desenvolvedores</h1>
+        <p id="subtitulo">Preencha as informações abaixo:</p>
+
+        <form method="post" action="">
+            <div id="pai-de-todos">
+
+                <fieldset class="etapa-1">
+                    <div class="names">
+                        <div class="nome"> 
+                            <label for="first-name">Nome <input id="first-name" type="text" required class="borda"></label>
+                        </div>
+                        <div class="nome" id="sobrenome">
+                            <label for="last-name">Sobrenome <input id="last-name" type="text" required class="borda"></label>
+                        </div>
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">Email <input id="email" type="email" required class="borda"></label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="etapa-2">
+                    <p class="titulo-categoria">Qual é o seu foco de desenvolvimento?</p>
+                    <div class="foco-desenvolvimento">
+                        <label for="front-end"><input id="front-end" type="radio" name="dev-area" value="front-end" checked>Front-end</label>
+                    </div>
+                    <div class="foco-desenvolvimento">
+                        <label for="back-end"><input id="back-end" type="radio" name="dev-area" value="back-end">Back-end</label>
+                    </div>
+                    <div class="foco-desenvolvimento">
+                        <label for="full-stack"><input id="full-stack" type="radio" name="dev-area" value="full-stack">Fullstack</label>
+                    </div>
+                <fieldset>
+                
+                <fieldset class="tecnologias">
+                    <p class="titulo-categoria">Selecione as tecnologias que utiliza:      
+                    </p>
+                    <div class="linguagens">
+                        <label for="html"><input id="html" type="checkbox" name="tec-1" value="html">HTML</label>
+
+                        <label for="css"><input id="css" type="checkbox" name="tec-2" value="css">CSS</label>
+
+                        <label for="javaScript"><input id="javaScript" type="checkbox" name="tec-3" value="javaScript">JavaScript</label>
+
+                        <label for="php"><input id="php" type="checkbox" name="tec-4" value="php">PHP</label>
+
+                        <label for="java"><input id="java" type="checkbox" name="tec-5" value="java">Java</label>
+
+                        <label for="python"><input id="python" type="checkbox" name="tec-6" value="python">Python</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="biografia">
+                    <label for="bio" class="titulo-categoria">Conte um pouco sobre você:
+                        <textarea name="bio" id="bio" cols="50" rows="6" placeholder="Minhas experiências são..." class="borda"></textarea>
+                    </label>
+                </fieldset>
+
+                <div id="botao">
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
