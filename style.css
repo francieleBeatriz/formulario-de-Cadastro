@@ -136,3 +136,15 @@ input[type="checked"]{
 input[type="checked"]:checked{
     background-color: #ffffff;
 }
+
+@media(max-width: 600px){
+    form {
+        margin-left: 20px;
+    }
+    #titulo {
+        text-align: center;
+    }
+    .biografia > label > textarea{ 
+       
+    }
+}
